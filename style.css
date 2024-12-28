@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+}
+
+#search-bar {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+}
+
+#cart-icon {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Ensures that any overflow from the image is hidden */
+    height: 100%;
+}
+
+.card img {
+    width: 100%; /* Ensures the image takes up the full width of the card */
+    height: 500px; /* Fixed height for images to maintain consistency */
+    object-fit: cover; /* Ensures the image is scaled to cover the area without distortion */
+}
+
+.card-body {
+    text-align: center;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
